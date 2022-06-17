@@ -1,0 +1,10 @@
+{
+  "headers": ["User ID", "Name", "Occupation", "Age", "City", "Gender"],
+  "rows": [
+    [202, "Tom", "Gardner", 23, "Abia", "M"],
+    [203, "Princess", "Doctor", 48, "Ohio", "F"],
+    [204, "Micah", "Designer", 19, "Lagos", "M"],
+    [205, "Blossom", "Developer", 35, "Nigeria", "F"],
+    [206, "Mike", "Teacher", 75, "Delaware", "M"]
+  ]
+}

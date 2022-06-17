@@ -1,0 +1,26 @@
+body {
+  margin: 30px;
+}
+
+/* table {
+  width: 0 auto;
+  overflow: hidden;
+} */
+
+.table thead th {
+  background: #00957b;
+  color: #fff;
+}
+
+.table td,
+.table th {
+  padding: 10px 20px;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background: #eee;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #00957b;
+}
