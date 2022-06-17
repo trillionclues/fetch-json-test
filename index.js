@@ -35,27 +35,3 @@ async function insertItems(url, table) {
 }
 
 insertItems('./data.json', document.querySelector('table'))
-
-// insertTables('./data.json', document.querySelector('table'))
-
-// const movies = 'https://api.themoviedb.org/3/movie/550?api_key=2f8da33e128ebdd160d821befd533b56'
-
-// function movieRequest() {
-//   fetch(
-//     'https://api.themoviedb.org/3/movie/550?api_key=2f8da33e128ebdd160d821befd533b56'
-//   )
-//     .then((res) => {
-//       return res.json()
-//     })
-//     .then((data) => {
-//       return console.log(data)
-//     })
-//     .catch((err) => {
-//       return err
-//     })
-// }
-
-// async function movieList() {
-//   const response = await movieRequest('Fight Club')
-//   console.log(response)
-// }
